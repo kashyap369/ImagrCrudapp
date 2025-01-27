@@ -1,0 +1,8 @@
+﻿@model ImageCloude.Models.ImageModel
+
+<form method="post">
+    <label>Image Name:</label>
+    <input type="text" name="ImageName" value="@Model.ImageName" required />
+    <input type="hidden" name="ImageId" value="@Model.ImageId" />
+    <button type="submit">Update</button>
+</form>

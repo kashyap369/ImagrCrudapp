@@ -1,0 +1,28 @@
+﻿@model List<ImageCloude.Models.ImageModel>
+
+<form method="get">
+    <input type="text" name="searchQuery" placeholder="Search by name or ID" />
+    <button type="submit">Search</button>
+</form>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var image in Model)
+    {
+        <tr>
+            <td>@image.ImageId</td>
+            <td>@image.ImageName</td>
+            <td><img src="@image.ImageUrl" width="100" /></td>
+            <td>
+                <a href="/Image/Edit/@image.ImageId">Edit</a> |
+                <a href="/Image/Delete/@image.ImageId">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+<a href="/Image/Upload">Upload New Image</a>
