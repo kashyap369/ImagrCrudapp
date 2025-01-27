@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImageCloude")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bcd0206ea21adc209aa9d74fd0ec123e9d0eaa9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImageCloude")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImageCloude")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
